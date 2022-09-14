@@ -2,6 +2,9 @@ h1 {
    color:#FEFEFA;
    font-family: 'Brush Script MT', cursive;
 }
+body{
+   background-color:#193B2D
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
