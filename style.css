@@ -46,3 +46,10 @@ input {
   text-align: center;
 }
 
+.btn btn-outline-success {
+  text-align:center;
+}
+
+.text-muted {
+  text-align: center;
+}
