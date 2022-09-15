@@ -37,3 +37,11 @@ h2 {
   background-color:#58db8a;
   color: white;
 }
+
+label {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+}
