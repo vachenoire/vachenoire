@@ -43,6 +43,10 @@ h2 {
 }
 
 form {
-   width: 150%;
-   margin-left : 25%
+   text-align: center;
 }
+
+.text-muted {
+  text-align: center;
+}
+
