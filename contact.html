@@ -86,7 +86,7 @@
     </div>
 
       <h2>Contact Us Now!</h2>
-    <form>
+    <form id="myForm">
       <label for="YourName">Your Name</label> <br>
       <input type="text" id="YourName" name="YourName"> <br><br>
 
@@ -107,6 +107,10 @@
 function myFunction() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
+}
+        
+function myFunction() {
+  document.getElementById("myForm").reset();
 }
 </script>
     </form>
