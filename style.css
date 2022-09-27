@@ -22,6 +22,9 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
+.container{
+    float: left;
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -61,4 +64,3 @@ form {
 .text-muted {
   text-align: center;
 }
-
