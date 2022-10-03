@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-  <head>
-    
-    <meta charset="utf-8">
+<html>
+    <head>
+        <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,30 +12,28 @@
 
         <!-- Bootstrap JavaScript -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        
+        <title>Menu</title>
+        
+        </head>
     
-    <title>Menu</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    
- </head>
-<body w3-monospace>
-  
-  <div class="topnav">
-    <a href="index.html">Home</a>
-    <a class="active" href="menu.html">Menu</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </div>
-  
-           <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">Vache Noire</a>
+    <body class="w3-monospace">
+        
+          
+         <div class="row">
+            <div class="col-3"></div>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid col-12">
+                    <a class="navbar-brand" href="index.html"></a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="menu.html">Menu</a>
+                            <a class="nav-link active" href="menu.html">Menu</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
@@ -46,8 +44,10 @@
                     </ul>
                 </div>
             </nav>
-  
+    </div>
+
     <div class="sidenav">
+        <h3 id="menubrand" class="w3-bar-item">Vache Noire</h3>
         <a href="#hotbev">Hot Beverages</a>
         <a href="#coldbev">Cold Beverages</a>
         <a href="#crepes">Crepes</a>
@@ -56,7 +56,7 @@
     <div class="container" id="hotbev">
         <div class="row w3-padding-64">
         <div class="col-1"></div>
-        <div class="col-5 w3-padding-large">
+        <div class="col-6 w3-padding-large">
             <h1 class="w3-center">Hot Beverages</h1><br>
             <h4>Espresso Single</h4>
             <p class="w3-text-grey">30 ml of espresso | 5.50</p><br>
@@ -121,8 +121,9 @@
         
     <div class="container" id="coldbev">
        
-        <div class="w3-row w3-padding-64">
-        <div class="w3-col l6 w3-padding-large">
+        <div class="row w3-padding-64">
+        <div class="col-1"></div>
+        <div class="col-6 w3-padding-large">
             <h1 class="w3-center">Cold Beverages</h1><br>
             
             <h4>Cold Brew</h4>
@@ -174,27 +175,28 @@
             <p class="w3-text-grey"></p>
         </div>  
         
-        <div class="w3-col l6 w3-padding-large">
+        <div class="col-5 w3-padding-large">
         <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
         </div>
         
         
     <div class="container" id="crepes">
        
-        <div class="w3-row w3-padding-64">
-        <div class="w3-col l6 w3-padding-large">
+        <div class="row w3-padding-64">
+        <div class="col-1"></div>
+        <div class="col-6 w3-padding-large">
             <h1 class="w3-center">Crepes</h1><br>
             <h4>Mascarpone Crepe</h4>
-            <p class="w3-text-grey">Mascarpone cream cheese with chocolate ganche and fresh strawberry | 19.50</p><br>
+            <p class="w3-text-grey">Mascarpone cream cheese with chocolate ganche & fresh strawberries | 19.50</p><br>
     
             <h4>Pêche Melba</h4>
-            <p class="w3-text-grey">Vanilla ice cream, sliced peaches, homemade strawberry jam | 8.50</p><br>
+            <p class="w3-text-grey">Cinnamon crepes topped with vanilla ice cream, sliced peaches, & homemade strawberry jam | 19.50</p><br>
     
             <h4>Myrtille</h4>
-            <p class="w3-text-grey">Lemon custard, blueberries, and topped with condensed milk | 9.50</p><br>
+            <p class="w3-text-grey">Filled with blueberry sauce & lemon curd, topped wih powedered sugar and fresh blueberries | 19.50</p><br>
     
             <h4>Chocolat Framboise</h4>
-            <p class="w3-text-grey">Filled with rasberry puree & chocolate ganache, topped with Belgian white chocolate | 10.50</p><br>
+            <p class="w3-text-grey">Filled with rasberry puree & chocolate ganache, topped with Belgian white chocolate | 19.50</p><br>
     
             <h4>Piccolor</h4>
             <p class="w3-text-grey"> | 8.50</p><br>    
@@ -209,7 +211,7 @@
             <p class="w3-text-grey"></p>
         </div>
     
-        <div class="w3-col l6 w3-padding-large">
+        <div class="col-5 w3-padding-large">
         <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
         </div>
         
