@@ -7,7 +7,7 @@ body{
    font-family: 'Courier New', monospace;
    color: black;
   
- <!---Homepage CSS--->
+ /*Homepage CSS*/
 
 h2 {
    text-align: center;
@@ -95,7 +95,7 @@ footer{
     height: 200px;
     border-top: 10px solid #666;
 }
-}
+/*End Homepage CSS*/
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
