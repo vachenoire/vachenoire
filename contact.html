@@ -46,18 +46,11 @@
     
       <label for="Details">Details</label> <br>
       <input type="text" id="Details" name="Details"> <br><br>
-      <div class="popup" onclick="myFunction()"><button type="button" class="btn btn-outline-success">Submit</button>
-  <div class="popuptext" id="myPopup">Submitted, Thank You!</div>
-  
+      <div onclick="myFunction()"><button type="button" class="btn btn-outline-success">Submit</button>
     </div>
     </form>
+    
       <script>
-// When the user clicks on div, open the popup
-function myFunction() {
-  var popup = document.getElementById("myPopup");
-  popup.classList.toggle("show");
-}
-        
 function myFunction() {
   document.getElementById("myForm").reset();
 }
