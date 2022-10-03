@@ -6,24 +6,95 @@ body{
    background-color: rgb(246,242,238);
    font-family: 'Courier New', monospace;
    color: black;
-}
+  
+ <!---Homepage CSS--->
+
 h2 {
    text-align: center;
 }
-.greenery {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+.container_1{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    overflow: visible;
 }
-.centered {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+
+.container_1_top{
+    width:1000px;
+    height:300px;
+    text-align:center;
+    padding-top:120px;
+    background-image:url("https://cosmosmagazine.com/wp-content/uploads/2020/08/200805-Abstract-art-e1605221690633.jpg");
 }
-.container{
-    float: left;
+
+.container_1_middle{
+    width:1000px;
+    height:600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container_1_middle_pics{
+    width:300px;
+    height: 600px;
+    float:left;
+}
+
+.container_1_middle_pics_top{
+    width:300px;
+    height: 300px;
+    background-image: url("https://36wrne25rgt23vr1t93bstli-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/cafe-espresso_DTG8551-2-300x300.jpg");
+}
+
+.container_1_middle_pics_bottom{
+    width:300px;
+    height: 300px;
+    background-image: url("https://static.dezeen.com/uploads/2019/11/cadogen-cafe-nex-architecture-restaurants-london-chelsea-public-leisure_dezeen_2364_sq_b-300x300.jpg");\
+}
+
+.container_1_middle_txt{
+    width:700px;
+    height:600px;
+    float:right;
+}
+
+.container_1_middle_txt p{
+    padding: 20px;;
+}
+
+.container_1_bottom{
+    width:1000px;
+    height:300px;
+}
+
+.container_1_top span{
+    font-size:50px;
+    color:red;
+}
+
+.text-muted {
+  text-align: center;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-brand:hover{
+    color: #a2dbc4 !important;
+}
+
+footer{
+    margin-left:auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color:#222;
+    color:#a2dbc4;
+    height: 200px;
+    border-top: 10px solid #666;
+}
 }
 /* Add a black background color to the top navigation */
 .topnav {
