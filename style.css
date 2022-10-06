@@ -65,15 +65,15 @@ form {
     padding-bottom:8px;
 }
 
-.navbar {
+.navbarcss {
     background-color:#111;
 }
 
-.navbar a {
+.navbarcss a {
     color:white;
 }
 
-.navbar a:hover {
+.navbarcss a:hover {
     color:#a2c799;
 }
 
