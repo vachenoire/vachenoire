@@ -14,9 +14,7 @@
     font-size: 25px;
     font-family: 'Brush Script MT', cursive;
 }
-span{
-    float: left;
-}
+
 h1 {
    color: darkgreen;
    font-family: 'Brush Script MT', cursive;
@@ -25,7 +23,6 @@ body{
    background-color: rgb(246,242,238);
    font-family: 'Courier New', monospace;
    color: black; 
-   overflow-y:hidden;
 }
 
 h2 {
@@ -33,77 +30,75 @@ h2 {
 }
 
 .container_1{
-    width:1500px;
-    height:2150px;
-    overflow: visible;
+    width:1200px;
+    
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .container_1_top{
-    width:2000px;
-    height:500px;
+    width:1200px;
+    height:200px;
     background-image:url("https://www.studioplant.com/media/amasty/shopby/option_images/Green_plants_-_03072022_-_1.jpg");
-    margin-bottom: 40px;
-    overflow: visible;
-    display: flex;
+    
 }
 
 .container_1_top p{
     color:#a2c799;
     align-items:center;
-    padding-top:100px;
+    padding-top:40px;
     padding-left:10px;
-    padding-right:10px;
-    font-size: 40px;
-    overflow: visible;
-    align-items: center;
+    font-size: 30px;
 }
 
-.container_1_above_middle p{
-    margin-left:370px;
-    align-items:center;
+.container_1_above_middle{
+    margin-left: auto;
+    margin-right: auto;
+    width:1200px;
+    height:90px;    
+    text-align: center;
+}
+
+.container_1_above_middle p{   
+    padding-top:10px;
     font-size: 50px;
     font-family: 'Courier New', monospace;
     color:#0f3b04;
 }
 
-hr{
-    border:3px;
-}
 .container_1_middle{
-    width:2000px;
-    height:1000px;
-    margin-top: 20px;
+    width:1200px;
     margin-bottom: 20px;
+    background-color: blue;
 }
 
 .container_1_middle_pic1{
-    float:left;
-    margin-left:auto;
-    margin-right:10px;
-    width:700px;
-    height:857px;
-    background-image:url("https://www.interiorzine.com/wp-content/uploads/2017/10/ris-interior-ins-cafe-18.jpg");
+    float:left;    
+    width:600px;
+    height:720px;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-.container_1_middle_pic1 span.heading{
-    margin-top:10px;
-    margin-left: 175px;
-    font-size: 30px;
-    align-items:center;
+.container_1_middle_pic1 span.heading{    
+    font-size: 30px;    
     color:darkgreen;
 }
 
 .container_1_middle_pic2{
     float:left;
-    margin-left:auto;
-    margin-right:auto;
-    width:700px;
-    height:857px;
-    background-image:url("https://www.interiorzine.com/wp-content/uploads/2015/02/fresh-greenery-decor.jpg");  
+    width:600px;
+    height:720px;
+    border-right:1px solid #ccc;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-.container_1_middle_pic2 span.heading{
-    margin-left: 175px;
+.container_1_middle_pic2 span.heading{   
     margin-top:10px;
     font-size: 30px;
     align-items:center;
@@ -111,18 +106,16 @@ hr{
 }
 
 .text {
-  font-size: 17px;
-  margin-left:10px;
-  margin-right:10px;
+  font-size: 17px;  
   color:#0f3b04;
 }
 
 .container_1_bottom{
-    margin-left:375px;
-    margin-top:25px;
-    margin-bottom:25px;
-    width:605px;
-    height:404px;
+    margin-left:auto;
+    margin-right:auto;
+    width:1200px;    
+    padding-top:20px;
+    padding-bottom: 20px;
 }
 
 .footer{
@@ -131,25 +124,43 @@ hr{
     padding: 20px;
     background-color:#222;
     color:white;
-    width: 1500px;
-    height: 200px;
+    width: 1200px;
+    height: 160px;
+    margin-bottom: 0px;
 }
 
-footer .contact{
-    font-size:25px;
-    margin-left:120px;
+.footer .footer1{
+    width:300px;
+    height:140px;
+    float: left;
 }
 
-.menu{
-    margin-left:530px;
+.footer .footer2{
+    width:300px;
+    height:140px;
+    float: left;
 }
+
+.footer .footer3{
+    width:300px;
+    height:140px;
+    float: left;
+    margin-left: 100px;
+}
+
+.footer .contact, .menu, .about{
+    font-size:20px;    
+}
+
+.menua{
+    color:white;
+    font-size: 25px;
+}
+
 .fa {
-  font-size: 50px;
-  width: 50px;
-  height:50px;
-  margin-bottom:600px;
-  margin-left:37px;
+  font-size: 45px; 
   text-decoration: none;
+  margin-right: 10px;
 }
 
 /* Add a hover effect if you want */
@@ -161,7 +172,6 @@ footer .contact{
 
 /* Facebook */
 .fa-facebook {
-    
   color: white;
 }
 
@@ -170,7 +180,16 @@ footer .contact{
   color: white;
 }
 
-.fa-instagram {
-    margin-right:1000px;
+.fa-instagram {   
   color: white;
+}
+
+#myCarousel{
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-caption{
+    color:black
 }
