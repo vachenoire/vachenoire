@@ -1,1 +1,15 @@
+.navbar {
+    background-color:#111;
+}
 
+.navbar a {
+    color:white;
+}
+
+.navbar a:hover {
+    color:#a2c799;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    f
