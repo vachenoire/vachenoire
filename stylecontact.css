@@ -14,6 +14,12 @@
     font-size: 25px;
 }
 
+#menubrand {
+    font-size:25px;
+    color:white;
+    padding-left:19px;
+    padding-bottom:8px;
+}
 
 body{
    background-color: rgb(246,242,238);
