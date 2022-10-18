@@ -201,5 +201,6 @@ h2 {
 }
 
 .carousel-caption{
-    color:black
+    color:white;
+    font-weight: bold;
 }
