@@ -45,6 +45,10 @@
     padding-top:5px;
 }
 
+#menubrand a:hover{
+    color:#a2c799;
+}
+
 .navbar {
     background-color:#111;
 }
