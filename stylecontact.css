@@ -16,13 +16,7 @@
 
 #navbrandname {
     color:white;
-}
-
-#menubrand {
-    font-size:25px;
-    color:white;
-    padding-left:19px;
-    padding-bottom:8px;
+    font-family: 'Brush Script MT', cursive;
 }
 
 body{
