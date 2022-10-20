@@ -10,9 +10,14 @@
     color:#a2c799;
 }
 
-.navbar-brand{
-    font-size: 25px;
+.cursive {
     font-family: 'Brush Script MT', cursive;
+}
+
+#navbrandname {
+   color:white;
+   font-family: 'Brush Script MT', cursive; 
+  font-size:25px;
 }
 
 h1 {
