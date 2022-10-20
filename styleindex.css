@@ -10,21 +10,8 @@
     color:#a2c799;
 }
 
-#navbrandname {
-    color:white;
-}
-
 .navbar-brand{
     font-size: 25px;
-    font-family: 'Brush Script MT', cursive;
-}
-#menubrand {
-    font-size:25px;
-    color:white;
-    padding-left:19px;
-    padding-bottom:8px;
-}
-.cursive {
     font-family: 'Brush Script MT', cursive;
 }
 
@@ -44,7 +31,6 @@ h2 {
 
 .container_1{
     width:1200px;
-    
     margin-left:auto;
     margin-right:auto;
 }
@@ -75,6 +61,7 @@ h2 {
 
 .container_1_above_middle p{   
     padding-top:10px;
+    padding-bottom:13px;
     font-size: 50px;
     font-family: 'Courier New', monospace;
     color:#0f3b04;
@@ -128,8 +115,8 @@ h2 {
     margin-left:auto;
     margin-right:auto;
     width:1200px;    
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding-top:40px;
+    padding-bottom: 40px;
 }
 
 .footer{
@@ -138,7 +125,7 @@ h2 {
     padding: 20px;
     background-color:#222;
     color:white;
-    width: 1360px;
+    width: 1400px;
     height: 160px;
     margin-bottom: 0px;
 }
@@ -147,19 +134,21 @@ h2 {
     width:300px;
     height:140px;
     float: left;
+    margin-left: 67px;
 }
 
 .footer .footer2{
     width:300px;
     height:140px;
     float: left;
+    margin-left: 150px;
 }
 
 .footer .footer3{
     width:300px;
     height:140px;
     float: left;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .footer .contact, .menu, .about{
@@ -168,7 +157,7 @@ h2 {
 
 .menua{
     color:white;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .fa {
@@ -205,6 +194,15 @@ h2 {
 }
 
 .carousel-caption{
-    color:white;
+    color:papayawhip;
     font-weight: bold;
+}
+
+.caption{
+    font-size:23px;
+}
+
+h3{
+    font-size:30px;
+    font-weight:bold;
 }
