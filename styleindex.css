@@ -6,7 +6,7 @@
     color:white;
 }
 
-.nav-item a:hover {
+.nav-item li:hover {
     color:#a2c799;
 }
 
