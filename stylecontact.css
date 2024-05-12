@@ -25,6 +25,10 @@ body{
    color: black; 
 }
 
+.text-muted {
+  text-align: center;
+}
+
 .fa {
   font-size: 45px; 
   text-decoration: none;
